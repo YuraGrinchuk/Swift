@@ -19,4 +19,7 @@ func maxFinder(IntValue numb1:Int, IntValue numb2:Int, IntValue numb3:Int) -> In
 var maxV = maxFinder(IntValue: 1, IntValue: 33, IntValue: 5)
 print(maxV)
 //---------------------------------------------------------------------------------------------------------------
+class Blog{
+    
+}
 
