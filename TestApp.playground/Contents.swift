@@ -19,7 +19,17 @@ func maxFinder(IntValue numb1:Int, IntValue numb2:Int, IntValue numb3:Int) -> In
 var maxV = maxFinder(IntValue: 1, IntValue: 33, IntValue: 5)
 print(maxV)
 //---------------------------------------------------------------------------------------------------------------
-class Blog{
+//function which calculating final price
+
+func totalPriceCalc(DoubleValue price:Double, IntValue tip:Int)->Double{
     
+    return (price * Double(tip)/100)+price
 }
 
+print(totalPriceCalc(DoubleValue: 3.5, IntValue: 20))
+//---------------------------------------------------------------------------------------------------------------
+
+func multNum(FirstNumber a:Int, SecondNumber b:Int)->Double{
+    return (Double(a)*Double(b))
+}
+multNum(FirstNumber: 2, SecondNumber: 3)
